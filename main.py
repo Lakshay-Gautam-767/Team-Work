@@ -1,6 +1,4 @@
-def main():
-    print("Hello from team-work!")
+import numpy as np
+import pandas as pd
 
-
-if __name__ == "__main__":
-    main()
+df = pd.read_csv('https://github.com/Lakshay-Gautam-767/Datasets/raw/main/insurance.csv')
